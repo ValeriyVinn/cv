@@ -16,12 +16,17 @@ ul {
   padding-left: 0;
 }
 
+p {
+  padding: 0;
+  margin: 0;
+}
+
 /* main inf cont  sectiom */
 
 .main-container {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  /* width: 1200px; */
   background-color: #ffffff;
   margin: 0 auto;
 }
@@ -33,20 +38,20 @@ ul {
 
 .main-inf-cont {
   padding: 30px;
-  /* width: 90%; */
+  width: 250%;
 }
 
 .about-me-profession {
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: bold;
-  font-size: 16px;
+  font-size: 22px;
   line-height: 17px;
   color: rgb(81, 106, 132);
   margin-bottom: 20px;
 }
 
 .about-me-name {
-  font-style: normal;
+  /* font-style: normal; */
   font-weight: bold;
   font-size: 35px;
   line-height: 55px;
@@ -57,7 +62,7 @@ ul {
 .about-me-description {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: rgb(81, 106, 132);
   width: 90%;
@@ -92,7 +97,7 @@ ul {
   color: rgb(81, 106, 132);
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   /* margin-left: 5px; */
 }
@@ -100,7 +105,7 @@ ul {
 .my-projects-link {
   color: rgb(81, 106, 132);
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
 }
 
@@ -113,7 +118,7 @@ ul {
 .my-projects-brecket {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: rgb(81, 106, 132);
 }
@@ -135,7 +140,7 @@ ul {
 .my-work-exp-period {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 15px;
   color: rgb(81, 106, 132);
   margin: 0 0 10px 0;
@@ -152,7 +157,7 @@ ul {
 .my-work-exp-duti {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: rgb(81, 106, 132);
 }
@@ -174,7 +179,7 @@ ul {
 .my-education-prof {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 17px;
   color: rgb(81, 106, 132);
   margin: 0 0 10px 0;
@@ -183,7 +188,7 @@ ul {
 .my-education-period {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 15px;
   color: rgb(81, 106, 132);
 }
@@ -215,18 +220,20 @@ ul {
 .contacts-sect-type {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #fff;
   margin-right: 5px;
+  
 }
 
 .contacts-sect-link {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #ffffff;
+  
 }
 
 .contacts-sect-link:hover,
@@ -235,17 +242,16 @@ ul {
   transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
-.social__icon {
-  fill: #0c0300;
-}
-/* sidebar sectiom tech skills */
+
 
 .Tech-Skills-item {
   color: white;
   padding-right: 10px;
+  
 }
 
 .Tech-Skills-item-text {
+  font-size: 16px;
   color: rgb(255, 255, 255);
 }
 
@@ -256,9 +262,11 @@ ul {
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
+  
 }
 
 .soft-Skills-item {
+  font-size: 16px;
   color: yellow;
 }
 
@@ -267,10 +275,12 @@ ul {
 }
 
 .list {
+  font-size: 16px;
   list-style: none;
 }
 
 .sidebar-sections-indent {
+  font-size: 16px;
   padding-left: 30px;
   margin-top: 30px;
 }
